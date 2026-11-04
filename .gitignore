@@ -1,0 +1,7 @@
+# Blender 源文件与临时备份不入库（尺寸大、且可由脚本重建）
+*.blend
+*.blend1
+# 转台逐帧（36 张 PNG，可由 render_turntable.py 重建）
+renders/turntable/
+# 轻量版 GIF 与逐帧
+share/*_small.gif
